@@ -1,10 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Contact</title>
+    <title>Contact Us - TechCon 2024</title>
     <meta charset="utf-8">
   </head>
   <body>
-    
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+          <h2>Get in Touch with Us</h2>
+          <p>If you have any questions or need more information about TechCon 2024, please reach out to us via the contact options below.</p>
+          
+          <!-- Contact Information -->
+          <div>
+              <h3>Email</h3>
+              <p>For general inquiries, please email us at <a href="mailto:info@techcon2024.com">info@techcon2024.com</a>.</p>
+
+              <h3>Social Media</h3>
+              <p>Follow us on social media:</p>
+              <ul>
+                  <li><a href="https://twitter.com/TechCon2024" target="_blank">Twitter</a></li>
+                  <li><a href="https://facebook.com/TechCon2024" target="_blank">Facebook</a></li>
+                  <li><a href="https://instagram.com/TechCon2024" target="_blank">Instagram</a></li>
+              </ul>
+          </div>
+
+          <!-- Embedded Google Map -->
+          <div>
+              <h3>Our Location</h3>
+              <p>We’re located at the Tech Conference Center, Downtown City.</p>
+              <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.5075851411915!2d2.2922923156746974!3d48.85884407928704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdad0ad7d0f%3A0x8fa1167a49b4e8b!2sTech%20Conference%20Center%2C%20Downtown%20City!5e0!3m2!1sen!2sus!4v1640782187482!5m2!1sen!2sus" 
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+
+          <!-- Contact Us Form -->
+          <section>
+              <h3>Contact Us Directly</h3>
+              <form action="/submit-message" method="POST">
+                  <!-- Name Field -->
+                  <div>
+                      <label for="name">Your Name</label>
+                      <input type="text" id="name" name="name" required placeholder="Enter your name">
+                  </div>
+
+                  <!-- Email Field -->
+                  <div>
+                      <label for="email">Your Email</label>
+                      <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                  </div>
+
+                  <!-- Message Field -->
+                  <div>
+                      <label for="message">Your Message</label>
+                      <textarea id="message" name="message" required placeholder="Write your message here"></textarea>
+                  </div>
+
+                  <!-- Submit Button -->
+                  <div>
+                      <button type="submit">Send Message</button>
+                  </div>
+              </form>
+          </section>
+      </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 copyright, Lara Phasha.</p>
+  </footer>
   </body>
 </html>
